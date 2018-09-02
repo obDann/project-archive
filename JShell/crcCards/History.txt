@@ -1,0 +1,11 @@
+Class name: History
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* prints all previous commands inserted into the prompt
+* prints the previous n commands where n is a positive integer
+Collaborators:
+* HistoryContainer
+* InvalidCmdUseError
+

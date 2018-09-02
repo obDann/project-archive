@@ -1,0 +1,360 @@
+@charset "uft-8";
+/*CSS Document*/
+
+/*Sticking to one font only, Sans Serif.*/
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "PT Sans",sans-serif;
+}
+
+body {
+    background: #fff;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+/*To get borders on top and below headings.*/
+.heading1 {
+    border-bottom: solid 1px #151719;
+    border-top: solid 1px #151719;
+    color: #151719;
+}
+
+ul.advice li {
+    padding-left: 2em;
+    margin-left: 2em;
+}
+
+/*Div table stuff*/
+.divTable {
+    display: table;
+    width: 100%;
+}
+.divTableRow {
+    display: table-row;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+}
+.divTableCell, .divTableHead {
+    border: 1px solid #999999;
+    display: table-cell;
+    padding: 3px 10px;
+}
+.divTableHeading {
+    background-color: #EEE;
+    display: table-header-group;
+    font-weight: bold;
+}
+.divTableFoot {
+    background-color: #EEE;
+    display: table-footer-group;
+    font-weight: bold;
+}
+.divTableBody {
+    display: table-row-group;
+}
+#name {
+    color: blue;
+}
+#row_name, #name {
+    font-weight:bold;
+}
+
+
+/*Dealing with long words that extend past the window width.*/
+div.content {
+    width: calc(100% - 375px);
+    word-wrap: break-word;
+}
+
+.main {
+    background: white;
+    min-height: 100%;
+    padding: 85px 0px 90px 0px; /*85px = header height; 90px = footer height*/
+    box-sizing: border-box;
+}
+
+/*
+ We want a good part of the header as blue, taking up the entire width. Top and
+ left tells us that there are no margins to spare. We also want to keep the
+ header at the top.
+ */
+.header_block {
+    background: #0080ff;
+    position: fixed;
+    width: 100%;
+    height: 85px; /*Same size as padding in .main.*/
+    top: 0px;
+    left: 0px;
+}
+
+/*
+ For the header, we just want a big font and
+ we want white text over blue. Padding indicates
+ How far from the middle the text should be.
+*/
+.header {
+    font-size: large;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px
+}
+
+/*
+ It would be rational of us to style out the default
+ href tags, so text-decoration is set as none.
+*/
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+ Here we have a navigation pane.
+
+ For this, we want a simple black theme for our navigation
+ pane. However, it will be using a bit more.
+
+ The navigation pane is supposed to keep all "buttons"
+ in place while the user is scrolling.
+*/
+.navigation {
+    background-color: #151719;
+    float: left;
+    width: 310px;
+    height: 100%;
+    color: white;
+    position: fixed;
+}
+
+/*
+ We want a "primary button" as we have already laid out
+ what is going to be on the website:
+     -Home
+     -Course materials
+         =>Lecture
+         =>Labs
+         => Supplements
+     ...
+ White goes great with both colors.
+
+ Width of the navigation pane goes up to 300px; It was
+ difficult to work with percents, and this is one of the cases
+ where using pixels is more ideal.
+
+ border-top indicates what part of the element we wish to slightly
+ cover, for us, it's the top.
+*/
+.p_nav_button {
+    text-align: left;
+    color: white;
+    /*MAY BE CHANGED*/
+    width: 300px;
+    height: 10px;
+    padding-top: 2.5%;
+    padding-bottom: 5%;
+}
+
+/*
+ default hrefs are annoying...
+
+ This is really here for only two buttons, home and anonymous
+ feedback.
+
+ However, looking a bit more closely, notice that there is a
+ 12.5. the primary buttons have a weight in this navigation
+ of 12.5*5= 62.5% in total
+*/
+.p_nav_button a {
+    text-decoration: none;
+    color: white;
+    width: 300px;
+    padding-top: 5%;
+    float:left;
+}
+
+/*
+ We want a sleek hover effect that doesn't bombard the user's eyes,
+ while at the same time, we want something that notifies the user,
+ so we use a darker grayer color.
+*/
+.p_nav_button:hover,
+.p_nav_button a:hover,
+.s_nav_button li a:hover {
+    color: #636e72;
+}
+
+/*
+ There's an odd awkward line at the top of the navigation pane from
+ earlier, so we remove this.
+*/
+#top.p_nav_button {
+    border-top: 5px solid #151719;
+}
+
+/*
+So we ran into somewhat of a trouble with this where we wanted to
+expand/collapse certain primary buttons that had items in them, but
+there's still a gap with JavaScript that we have yet to learn
+*/
+.s_nav_button ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*
+We just format anything that hyperlinks to somewhere, as a
+secondary heading.
+*/
+.s_nav_button li {
+    box-sizing: border-box;
+    color: white;
+    width: 300px;
+    text-align: right;
+    background-color: #0080ff;
+}
+
+/*
+ hrefs are annoying to format... however notice that there's a
+ 3.4 there. There are a total of 11 secondary buttons so
+ 3.4 * 11 = 34% in total with the primary buttons:
+ 62.5 + 34 = 96.5%. It's best to stay under than over so that
+ users can see what buttons are available to them.
+*/
+.s_nav_button li a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    width: 100%;
+    padding-top: 3.4%;
+    border-top: 1px solid grey;
+}
+
+/*
+ Now we just want something that talks about what is on the page directly,
+ which is content. No margins here.
+*/
+.content {
+    background: white;
+    height: 100%;
+    padding: 20px 20px 20px 350px;
+}
+
+/*
+ As required, we need a footer. We specifically state that it's
+ at the bottom of the scroll outside of the navigation pane,
+ so it's position is "absolute". Also footers are
+ supposed to be smaller.
+*/
+.footer {
+    background: #151719;
+    position: relative;
+    margin-top: -90px;
+    bottom: 0px;
+    width: calc(100% - 310px);
+    height: 90px;
+    clear: both;
+    text-align: center;
+    font-size: small;
+    color: white;
+    left: 310px;
+}
+
+/*
+ Within the footer, we have regular hyperlinks, one going to
+ the UTSC CS faculty, and others going to really relevant parts
+ for UTSC CS students. So we initializes them as a list
+*/
+.reg_hyper ul li {
+    display: inline;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 50%;
+}
+
+/*
+ Restyling the hyperlink...
+*/
+.reg_hyper ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+/*
+ Add some style to it being hovered
+*/
+.reg_hyper ul li a:hover {
+    text-decoration: underline;
+}
+
+/*
+ We also have footer pictures if students
+ want to see what's really in the bottom of
+ the website
+*/
+.footer_pics ul li {
+    display: inline;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+/*Following is formatting for content inside the content container.*/
+#pg_title{
+    font-size: 50px;
+    color: #0080ff;
+    text-align: center;
+}
+
+.material_grouping{
+    margin-top: 30px;
+    width: 700px;
+    margin-left: 25%;
+}
+
+.title{
+    color: #0080ff;
+    background-color: white;
+    border: 3px dashed #0080ff;
+    border-bottom: 0px;
+    font-size: 36px;
+    text-align: center;
+}
+
+.material_grouping ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 0px;
+    border: 3px solid #0080ff;
+    border-top: 0px;
+    text-align: left;
+}
+
+.material_grouping ul li{
+    border-top: 3px solid #0080ff;
+}
+
+.material_grouping ul li a{
+    text-decoration: none;
+    color: #151719;
+    font-size: 20px;
+	padding-right:0px;
+}
+
+.material_grouping ul li a:hover{
+    background-color: #0080ff;
+    color: white;
+}
+
+.feedback{
+    margin-top:20px;
+}
+
+#submsg {
+  text-align: center;
+}

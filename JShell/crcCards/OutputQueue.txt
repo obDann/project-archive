@@ -1,0 +1,12 @@
+Class name: OutputQueue
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Holds strings in a FIFO format, knowing what messages are standard error and
+  what strings are standard output
+* Provides all standard output messages that is enqueued in the OutputQueue
+* Provides all standard error messages that is enqueued in the OutputQueue
+* Provides all messages that is enqueued in the OutputQueue
+* Can be dequeued
+Collaborators:

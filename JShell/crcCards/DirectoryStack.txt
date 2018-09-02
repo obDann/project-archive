@@ -1,0 +1,15 @@
+Class name: DirectoryStack
+Parent class:
+Subclasses:
+
+Responsibilities:
+* can hold absolute directory paths
+* can have directory paths pushed onto the topmost level of itself
+* can pop off the topmost directory path if there exists one
+Collaborators:
+* Directory
+
+!NOTE!:
+Should directory stack have methods for popd and pushd, and not have these
+commands defined as their own class?
+

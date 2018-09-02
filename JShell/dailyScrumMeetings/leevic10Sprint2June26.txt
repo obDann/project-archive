@@ -1,0 +1,8 @@
+What did I work on last time?
+    - worked on directory stack, pushd and popd classes
+
+What do I plan to work on now?
+    - I plan on working on tree command
+    - I plan on testing pushd and popd work as intended
+Am I blocked on anything?
+    - I am having trouble testing pushd and popd classes

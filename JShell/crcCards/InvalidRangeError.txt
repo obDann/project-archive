@@ -1,0 +1,9 @@
+Class name: InvalidRangeError
+Parent class: Exception
+Subclasses:
+
+Responsibilities:
+* raised when an invalid input for getting the number of commands from history
+  in HistoryContainer is used
+Collaborators:
+

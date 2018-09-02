@@ -1,0 +1,19 @@
+Class name: Echo
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* output a string
+* output a string to a file if specified (overwriting the contents of the file
+  if and creates the file if it doesn't exist)
+* output a string to the end of the contents of a file (appends string to file
+  contents and creates the file if it doesn't exit)
+Collaborators:
+* FileSystem
+* FileSystemObject
+* NonExistantChildError
+* BadFileSystemObjectNameError
+* DuplicateFileSystemObjectError
+* UnexpectedFsoError
+* InvalidPathError
+

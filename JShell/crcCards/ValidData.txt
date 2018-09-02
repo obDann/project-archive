@@ -1,0 +1,9 @@
+Class name: ValidData
+Parent class:
+Subclasses:
+
+Responsibilities:
+* parses user input
+* validates the input i.e. checks if given command keyword exists
+Collaborators:
+

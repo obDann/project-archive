@@ -1,0 +1,102 @@
+//Sprint 5 Backloag
+July 17th to July 23rd
+
+User Stories from Product Backlog that we will address in this sprint:
+
+Bb) As a user, a user can redirect the output of any command (except exit)
+to a specified file which will create and write to the file if it doesn't
+exist or overwrite the file's contents if it does exist.
+
+Bc) As a user, a user can redirect the output of any command (except exit)
+to a specified file which will create and write to the file if it doesn't
+exist or append to the file's contents on a newline if it does exist.
+
+Ab) As a user, a user must be able to print text to the shell
+
+Ba) As a user, a user must be able see all of a path's sub directories given
+ a path or multiple paths (in both contexts of relative and absolute path)
+  [ls -R]
+
+Af) As a user, a user should be able to open and display the contents of
+ multiple files listed one after another in the shell
+
+Aac)
+As a user, the user can only name directories to be alphanumeric
+
+Ak) As a user, if a user tries to change his/her working directory to an
+ invalid directory, the user must know that it is an invalid directory
+
+Bf) As a user, a user should be able to move a file or directory given by an
+path to another file or directory given by another path. The root directory
+ can not be moved. A directory can not be moved to a file.
+
+Bj) As a user, a user should be able to copy the contents of a file or
+directory given by a path to another file or directory given by another
+path. The root directory can not be copied. A directory can not be
+copied to a file.
+
+Bd) As a user, a user should be able to retrieve a file at a given URL and
+ add it to the current working directory.
+(curl)
+
+Ac) As a user, a user should be able to create a new file with the given
+ name and given string as the content if the given file does not exit.
+
+Bk) As a user, a user should be able to print all lines in any files in
+ a directory (or the in the path to the directory including the directory)
+  that match a regex REGEX. (grep)
+
+Aaa) As a user, the user must be able to find any existing directory or
+ file in the file system.
+
+Ag) As a user, a user should be notified when giving an invalid command.
+
+Ai) As a user, a user must be able to exit the shell.
+
+Be) As a user, a user should be able to execute a previously executed command
+by providing an exclamation point(!) followed by the history number of the
+command that was executed.
+
+
+Specific tasks to be accomplished:
+Bb-1 (Output) Write the unit test for redirection and overwriting
+Bc-1 (Output) Write the unit test for redirection and appending
+Ab-1 (Echo) Refactor Echo (and other commands implemented in 2A) so that
+it does not directly print to the shell and works with its output queue (must
+also make unit tests for these commands)
+Ba-1 (Ls) implement the functionality of "ls -R"
+Af-1 (Ls) re-implement existing code to work with the requirements of ls (as
+this has failed from 2A; it must print out the path, a colon and then a
+following a new line)
+Aac-1 (Directory) Only make directory names to be alphanumeric
+Ak-1 (Directory) Make the unit test for directory
+Ac-1 (File) Make the unit test for file
+Bk-1 (Grep) Create base code for printing lines in a file if -R is not 
+supplied
+Bk-2 (Grep) Create base code for printing lines in a file if -R is supplied
+Bd-3 (Curl) Create JUnit test for curl command
+Bf-1 (Mv) write unit test for Mv output error messages
+Bj-1 (Cp) write unit test for Cp output error messages
+Aaa-1 (Find) write unit test for Find
+Ag-1 (FileSystem) complete the unit test for FileSystem
+Ag-2 (FileSystem) refactor some method so it fits the 30 lines limit
+Ai-1 (Exit) Add base and man code for Exit class
+Ai-2 (Console) Remove previous way of checking for exit command
+Ai-3 (ValidData) Remove previous way of checking for exit command
+Be-1 (Console) Write base code for ! (command substitution) method
+Be-2 (HistoryContainer) Write base code for getting a single command
+Be-3 (Console) Integrate command substitution in Console's input loop
+
+These tasks are assigned as follows:
+
+User: Dann
+Tasks: Bb-1, Bc-1, Ab-1, Ba-1, Af-1, Aac-1, Ak-1, Ac-1
+
+User: Victor
+Tasks: Bd-3, Bk-1, Bk-2
+
+User: Shuqi (Alice)
+Tasks: Bf-1, Bj-1, Aaa-1, Ag-1, Ag-2
+
+UserL Sibo
+Tasks: Ai-1, Ai-2, Ai-3, Be-1, Be-2, Be-3

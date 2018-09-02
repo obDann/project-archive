@@ -1,0 +1,8 @@
+Class name: InvalidCmdUseError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to use a command that does not
+  follow the guidelines of a command's man page
+Collaborators:

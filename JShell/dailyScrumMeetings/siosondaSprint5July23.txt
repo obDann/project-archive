@@ -1,0 +1,15 @@
+What did I work on last time?
+-Refactored the Ls command
+-Added functionality for "ls -R"
+-Refactored the Mkdir command
+-Made unit tests for Ls and Mkdir
+-Made unit tests for File and Directory
+-Re-write "getFsoByPath" more concisely (under 30 lines)
+-Researched design patterns to discuss in the report
+-Enforced the Singleton Design Pattern
+
+What do I plan to work on now?
+-end of project
+
+Am I blocked on anything?
+-end of project

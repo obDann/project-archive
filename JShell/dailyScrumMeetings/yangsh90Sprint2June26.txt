@@ -1,0 +1,13 @@
+yangsh90Sprint2June26
+
+What did I do last time?
+- write update filesystem
+- write command pathDirCommand
+
+What do I plan to do now?
+- base code for man
+- base code for find
+
+Am I blocked on anything?
+- when I try to test man find class, it always gives me an system error: NullPointerEception
+- need to talk to the team about how to do man class, about the format and what to include in that

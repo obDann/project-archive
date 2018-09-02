@@ -1,0 +1,14 @@
+yangsh90Sprint4July13
+
+What did I do last time?
+- write the base code for Mv
+
+What do I plan to do now?
+- write the base code for Cp
+- write the execute method for Mv recursively
+- write test case for Cp
+- update the test cases for FileSystem, man
+
+Am I blocked on anything?
+- how to test cp from dir to dir
+- how to set 80 character line on eclipse

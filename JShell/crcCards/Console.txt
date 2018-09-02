@@ -1,0 +1,17 @@
+Class name: Console
+Parent class:
+Subclasses:
+
+Responsibilities:
+* reads user input
+* executes appropriate commands on the file system
+* execute command given by user input if valid
+* substitutes !number for appropriate command from history
+Collaborators:
+* Command
+* ValidData
+* DirectoryStack
+* HistoryContainer
+* InvalidCommandError
+* FileSystem
+

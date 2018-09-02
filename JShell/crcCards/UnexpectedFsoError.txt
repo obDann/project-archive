@@ -1,0 +1,8 @@
+Class name: UnexpectedFsoError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to retrieve a File but
+  obtained a directory (or vice-versa)
+Collaborators:

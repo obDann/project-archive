@@ -1,0 +1,9 @@
+Class name: Grep
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* print any lines from a file matching a given REGEX if a file path is given
+* print the file path and the lines from the file matching a given Regex if a directory path is given
+
+Collaborators:

@@ -1,0 +1,19 @@
+What did I do last time?
+-Base code for FileSystemObject
+-Refactored File
+
+What do I plan to do now?
+-Add an error class for the Directory so that same named files/directories are
+not in the directory
+-Base code for cat
+-Base code for echo
+-Base code for ls
+-Base code for cd
+-Base code for pwd
+
+Am I blocked on anything?
+-Adding the error class for Directory; time is scarce
+-ls and cd may be tricky to handle; will communicate with team members and
+ review documentation
+-May need to communicate with the group about the design (constructors cannot
+ return objects in Java)

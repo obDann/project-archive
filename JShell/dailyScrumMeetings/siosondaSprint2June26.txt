@@ -1,0 +1,16 @@
+What did I do last time?
+-Made the initial implementations of Cd and Echo
+-Made convenient getter methods from FileSystem to get specific File System
+ Objects
+
+
+What do I plan to do now?
+-Re-implement Cd and Echo due to changes
+-Create the base code for the ls, pwd, and cat classes
+
+Am I blocked on anything?
+-Initially blocked due to the initial methods from fileSystem, but after
+ discussing with the group, proposals are implemented (like the getter methods)
+-Pending discussion on the output class/interface; I will need to know how we
+ are going to implement output for cat, ls and pwd
+-Will discuss with the group if there are unexpected barriers

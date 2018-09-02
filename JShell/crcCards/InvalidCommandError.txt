@@ -1,0 +1,8 @@
+Class name: InvalidCommandError
+Parent class: Exception
+Subclasses:
+
+Responsibilities:
+* raised when an invalid command keyword is typed in Console
+Collaborators:
+

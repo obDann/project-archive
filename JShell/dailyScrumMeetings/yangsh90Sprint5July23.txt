@@ -1,0 +1,10 @@
+yangsh90Sprint5July23
+
+What did I do last time?
+- edit commands so they work with output queue (Cp, Mv)
+
+What do I plan to do now?
+- last minute checking
+
+Am I blocked on anything?
+- none

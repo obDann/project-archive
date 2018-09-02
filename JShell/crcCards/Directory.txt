@@ -1,0 +1,16 @@
+Class name: Directory
+Parent class: FileSystemObject
+Subclasses:
+
+Responsibilities:
+* knows its contents
+* knows a reference to itself
+* knows a reference to its parent directory
+* knows references to its contents, which will be other files and
+  directories
+* create a directory
+Collaborators:
+* File
+* Directory
+* NonExistantChildError
+

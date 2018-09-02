@@ -1,0 +1,95 @@
+//Sprint 4 Backloag
+July 10th to July 16th
+
+User Stories from Product Backlog that we will address in this sprint:
+
+Bb) As a user, a user can redirect the output of any command (except exit)
+to a specified file which will create and write to the file if it doesn't
+exist or overwrite the file's contents if it does exist.
+
+Bc) As a user, a user can redirect the output of any command (except exit)
+to a specified file which will create and write to the file if it doesn't
+exist or append to the file's contents on a newline if it does exist.
+
+Ab) As a user, a user must be able to print text to the shell
+
+Bd) As a user, a user should be able to retrieve a file at a given URL and
+add it to the current working directory.
+
+Ag) As a user, a user should be notified when giving an invalid command.
+
+Be) As a user, a user should be able to execute a previously executed command
+by providing an exclamation point(!) followed by the history number of the
+command that was executed.
+
+Bk) As a user, a user should be able to print all lines in any files in a
+directory (or the in the path to the directory includingthe directory) that
+match a regex REGEX.
+
+As) As a user, the user should be able to access documentation for the current
+JShell terminal's commands through the JShell terminal.
+
+Bf) As a user, a user should be able to move a file or directory given by an
+path to another file or directory given by another path. The root directory
+ can not be moved. A directory can not be moved to a file.
+
+Bj) As a user, a user should be able to copy the contents of a file or
+directory given by a path to another file or directory given by another
+path. The root directory can not be copied. A directory can not be
+copied to a file.
+
+A
+
+
+Specific tasks to be accomplished:
+Bb-1 (Output) Continue from the base code so that there is appropriate 
+redirection towards overwriting files
+Bc-1 (Output) Continue from the base code so that there is appropriate 
+redirection towards appending files
+Ab-1 (Echo) Refactor Echo (and other commands implemented in 2A) so that 
+it does not directly print to the shell and instead returns some values 
+(i.e. (String, <type of output>))
+Ab-2 (Output) Write the base code for Output; a class that will handle 
+output redirection from
+output of commands
+Ab-3 (Console) Change code in console so that somewhere, a method to 
+print from Output is called so
+that we can print the output from a command execution
+Bd-1 (Curl) Do research on how to handle errors such as 404 error
+Bd-2 (Curl) Create base code for curl command
+Bd-3 (Curl) Create JUnit test for curl command
+Ag-1 (Console) Change the command assignment method so that is uses 
+hashtables and java reflection
+instead of multipl if conditionals
+Ag-2 (ValidData) Change ValidData to work with Console's hashtable 
+to verify a command's existance.
+Be-1 (Console) Add the '!' string and 'executeHistory' key and value 
+pair. NOTE Not actually sure
+how I would check for !number; requires different methods than other 
+commands. ASK ABBAS!
+Be-2 (ValidData) Not sure; potentially check for !number as a command.
+Be-3 (HistoryContainer) Provide a method to return the command string 
+at a certain history number
+Be-4 (executeHistory) Not sure; Write base code for executeHistory
+Bk-1 (Grep) Create base code for printing lines in a file if -R is not 
+supplied
+Bk-2 (Grep) Create base code for printing lines in a file if -R is supplied
+Bk-3 (Grep) Create test file for Grep command
+As-1 (Man) change Man to work using hashtables
+Bf-1 (Mv) write the base code for new command Mv
+Bj-1 (Cp) write the base code for new command Cp
+
+
+These tasks are assigned as follows:
+
+User: Dann
+Tasks: Bb-1 Bc-1 Ab-1 Ab-2
+
+User: Victor
+Tasks: Bd-1 Bd-2 Bd-3 Bk-1 Bk-2 Bk-3
+
+User: Shuqi (Alice)
+Tasks: As-1 Bf-1 Bj-1
+
+UserL Sibo
+Tasks: Ag-1 Ag-2 Be-1 Be-2 Be-3 Be-4 Ab-3

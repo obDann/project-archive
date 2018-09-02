@@ -1,0 +1,152 @@
+Aa)
+As a user, a user should be able to              3 hours
+print the path of the current directory
+in the shell
+
+Ab)
+As a user, a user should be able to              2 hours
+print the given string in the shell
+
+Ac)
+As a user, a user should be able to              3 hours
+create a new file with the given name
+and given string as the content if
+the given file does not exit.
+
+Ad)
+As a user, a user should be able to              3 hours
+erases all the old contents in the
+given file and replaces them with
+the given string if the given file
+already exits.
+
+Ae)
+As a user, a user should be able to              3 hours
+add the given string to the end of
+the old contents in the given file
+if the given file already exits.
+
+Af)
+As a user, a user should be able to              4 hours
+open and display the contents of
+multiple files listed one after
+another in the shell
+
+Ag)
+As a user, a user should be notified             3 hours
+when giving an invalid command.
+
+Ah)
+As a user, a user must be able to open           1 hour
+shell and knows that the he/she can run
+shell commands
+
+Ai)
+As a user, a user must be able to exit           1 hour
+the shell
+
+Aj)
+As a user, a user must be able to change         2 days
+his/her working directory to an absolute or
+relative path
+
+Ak)
+As a user, if a user tries to change             3 hours
+his/her working directory to an invalid
+directory, the user must know that it is an
+invalid directory
+
+Al)
+As a user, a user must be able to see all        2 days
+previous commands he/she put into the
+shell
+
+Am)
+As a user, a user must be able to see the        1 day
+last n commands he/she put into the shell
+where n is a specified number
+
+An)
+As a user, if a user tries to view all           3 hours
+previous n commands where n is a negative
+number or non-integer, he/she must be
+informed that he/she cannot view the
+previous n commands
+
+Ao)
+As a user, the amount of whitespace              1 hour
+delimiting the arguments of a
+user-inputed command should not affect
+the meaning of the command (unless
+the amount of whitespace is 0 i.e. no
+whitespace between arguments).
+
+Ap)
+As a user, the user should possess the           6 hours
+ability to push any existing directory
+path (absolute or relative path) onto a
+LIFO directory stack for the purpose of
+navigating back to that path later (note
+that the absolute path will always be
+the path pushed onto the stack). The
+user will also see the directory stack
+in terminal when they succeed in pushing.
+
+Aq)
+As a user, the user should be able to            6 hours
+pop off the most recent directory path
+off of the LIFO directory stack and
+also have their working directory set to
+the popped off directory path (an attempt
+to pop an empty directory stack will
+result in a specialized error message
+being displayed). The user will also see
+the popped path when they succeed in
+popping.
+
+Ar)
+[Optional] As a user, the user should            3 hours
+be able to view a representation of the
+directory stack through the JShell
+terminal.
+
+As)
+As a user, the user should be able to            1 day
+access documentation for the current
+JShell terminal's commands through the
+JShell terminal.
+
+At)
+As a user, the user must be able to              2 hours 
+create one or more directories.
+
+Aw)
+As a user, the user must be able to              2 hours
+print the contents of the current directory.
+
+Ax)
+As a user, the user must be able to              2 hours
+print the path of a file.
+
+Ay)
+As a user, the user must be able to              2 hours
+print the contents of a specific directory.
+
+Az)
+As a user, the user must be able to              2 hours
+continue interacting with the program if
+one or more whitespaces are given by the
+user.
+
+Aaa)
+As a user, the user must be able to find         2 hours
+any existing directory or file in the file
+system.
+
+Aab)
+As a user, the user must be able to get a        2 hours
+display of the entire filesystem as a tree.
+
+Aac)
+As a user, the user can only name directories   3 days
+to be alphanumeric

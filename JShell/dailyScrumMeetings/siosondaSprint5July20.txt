@@ -1,0 +1,25 @@
+What did I do last time?
+-Completed Output class
+-Completed OutputQueue class
+-Refactored Cd command
+-Refactored Echo command
+-Refactored Pwd command
+-Refactored Cat command
+-Completed Unit tests for Output class
+-Completed Unit tests for OutputQueue class
+-Completed Unit tests for Cd command
+-Completed Unit tests for Echo command
+-Completed Unit tests for Pwd command
+-Completed Unit tests for Cat command
+
+What do I plan to do now?
+-Refactor the Ls command
+-Add functionality for "ls -R"
+-Refactor the Mkdir command
+-Make unit tests for Ls and Mkdir
+-Make unit tests for File and Directory
+-Re-write "getFsoByPath" more concisely
+
+Am I blocked on anything?
+-A lot on the plate at the moment, may ask for help if this is overwhelming
+-Will communicate with the team if anything

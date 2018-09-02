@@ -1,0 +1,100 @@
+//Sprint 2 Backlog
+June 22nd to June 28st
+
+
+User Stories from Product Backlog that we will address in this sprint:
+p) As a user, the user should possess the ability to push any existing directory path (absolute or relative path) onto a LIFO dire   ctory stack for the purpose of navigating back to that path later (note that the absolute path will always be the path pushed onto the stack). The user will also see the directory stack in terminal when they succeed in pushing.
+
+q) As a user, the user should be able to pop off the most recent directory path
+   off of the LIFO directory stack and also have their working directory set to the popped off directory path (an attempt to pop an empty directory stack will result in a specialized error message being displayed). The user will also see the popped path when they succeed in popping.
+
+s) As a user, the user should be able to access documentation for the current JShell terminal's commands through the JShell terminal.
+
+g) As a user, a user should be notified when giving an invalid command.
+
+i) As a user, a user must be able to exit the shell
+
+a) As a user, a user should be able to print the path of the current directory in the shell
+
+b) As a user, a user should be able to print the given string in the shell
+
+c) As a user, a user should be able to create a new file with the given name and given string as the content if the given file does not exist.
+
+d) As a user, a user should be able to erases all the old contents in the given file and replaces them with the given string if the given file already exist.
+
+e) As a user, a user should be able to add the given string to the end of the old contents in the given file if the given file already exist.
+
+w) As a user, the user must be able to print the contents of the current directory.
+
+y) As a user, the user must be able to print the contents of a specific directory.
+
+x) As a user, the user must be able to print the path of a file.
+
+j) As a user, a user must be able to change his/her working directory to an absolute or relative path
+
+k) As a user, if a user tries to change his/her working directory to an invalid directory, the user must know that it is an invalid directory
+
+f) As a user, a user should be able to open and display the contents of multiple files listed one after another in the shell
+
+l) As a user, a user must be able to see all previous commands he/she put into the
+shell
+
+n) As a user, if a user tries to view all previous n commands where n is a negative
+number or non-integer, he/she must be informed that he/she cannot view the previous
+n commands
+
+t) As a user, the user must be able to print the contents of the current directory
+
+aa) As a user, the user must be able to find any existing directory or file in the file system.
+
+Specific tasks to be accomplished:
+g-1 (Command) write the base code for Command
+g-2 (PathDirCommand) write the base code for command
+p-1 (Dir Stack) write the base code for a stack to hold the directories
+p-2 (Pushd) write the base code for the pushd command
+q-1 (Popd) write the base code for the popd command
+s-1 (Man) print the javaDoc for the command
+a-1 (Pwd) write the base code for the pwd command
+b-1 (Echo) write the base code for the command Echo
+b-2 (Echo) write a method for only printing strings
+c-1 (Echo) write a method for creating new files with specified content
+d-1 (Echo) write a method for overwriting files' content
+e-1 (Echo) write a method for appending files
+w-1 (Ls) write the base code for the command Ls
+w-2 (Ls) write a method for printing out the contents of the current directory
+y-1 (Ls) write a method for printing out the contents of a specific directory
+x-1 (Ls) write a method for printing out the path of a specific file
+j-1 (Cd) write the base code for Cd
+j-2 (Cd) write a method to change into a relative/absolute directory
+k-1 (Cd) write a method to handle errors
+f-1 (Cat) write the base code for cat
+l-1 (Console) Add lines of code in console that store user input into a HistoryQueue
+l-2 (HistoryQueue) Write base code for HistoryQueue
+l-3 (HistoryQueue) Write methods for adding to the queue
+l-4 (HistoryQueue) Write a class(es) to handle different errors
+l-5 (HistoryQueue) Write a method to delete commands from the front of the queue
+l-6 (HistoryQueue) Write a method to delete commands from the front of the queue if
+    the maximum queue size has been reached (to accomodate space for the new command)
+t-1 (Mkdir) Write base code for Mkdir
+t-2 (Mkdir) Write a method to parse a path (maybe)
+t-3 (Mkdir) Write a method to create an empty directory with a given name in a
+    relative or absolute path
+t-4 (Mkdir) Handle errors e.g. if last element in a path is a directory or file
+dsdsd
+aa-1 (Find) write the base code for Find
+aa-2 (FileSystem) write a find method in FileSystem to find a file or directory name
+
+
+These tasks are assigned as follows:
+
+User: Shuqi (Alice)
+Tasks: g-1, g-2, s-1, aa-1, aa-2
+
+User: Dann
+Tasks: a-1, b-1, b-2, c-1, d-1, e-1, w-1, w-2, y-1, x-1, j-1, j-2, k-1, f-1
+
+User: Sibo
+Tasks: l-1, l-2, l-3, l-4, t-1, t-2, t-3, t-4
+
+User: Victor
+Tasks: p-1, p-2, q-1

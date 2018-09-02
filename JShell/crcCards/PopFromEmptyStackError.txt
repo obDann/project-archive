@@ -1,0 +1,6 @@
+Class name: PopFromEmptyStackError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to pop from an empty statck.

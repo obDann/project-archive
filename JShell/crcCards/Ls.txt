@@ -1,0 +1,13 @@
+Class name: Ls
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* list the names of files and directories under the specified path
+  (if no argument given, list contents of current directory)
+* recursively lists the names of files and directories under the specified path
+  and its subdirectories
+Collaborators:
+* FileSystem
+* FileSystemObject
+* InvalidPathError

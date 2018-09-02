@@ -1,0 +1,11 @@
+Class name: Command
+Parent class: 
+Subclass: Ls, Mkdir, Pushd, Popd, Pwd, Cd, Cat, Echo, Exit, Man, History
+
+Responsibilities:
+* provides appropriate output towards the output queue
+* provides specific error messages regarding improper use of command (? should
+  this be implemented using Java interfaces)
+Collaborators:
+* Console
+* OutputQueue

@@ -1,0 +1,21 @@
+Class name: FileSystem
+Parent class:
+Subclass:
+
+Responsibilities:
+* creates only a single version of itself for one terminal instance (singleton design)
+* keeps track of the directory stack
+* keeps track of current working directory path
+* can print the current working directory
+* keeps track of the root directory
+* traverses directory to the specified directory from a given full or relative path
+* throws error if the given full or relative path does not exist
+* can also navigate to a specified file
+Collaborators:
+* DirectoryStack
+* FileSystemObject
+* BadFileSystemObjectNameError
+* InvalidPathError
+* NonExistantChildError
+* UnexpectedFsoError
+

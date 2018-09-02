@@ -1,0 +1,85 @@
+/*
+We don't want bullets on the marks
+*/
+.mark,
+.row{
+    list-style-type: none;
+}
+
+.push_marks{
+    margin-left: 5%;
+    margin-down: 100px;
+}
+
+/*
+Specifically within each row, we want to present each listed item horizontally
+*/
+.mark{
+    width:100%;
+    float:left;
+    display: inline;
+}
+
+
+/*
+For each "entry" of the cell, we want equal widths
+*/
+.mark_restrict{
+    width: 125px;
+    float: left;
+    border-right: solid;
+    text-align: center;
+    border-bottom: solid;
+}
+
+/*
+Only the top portion of the tables are black
+background and white font
+*/
+.mark_title{
+    background-color: black;
+    color: white;
+}
+
+/*
+Only for the "weight" title, we want to
+have a black right border
+*/
+.weight{
+    border-right-color: black;
+}
+
+/*
+We want to have a left border for all UTORids
+*/
+.utorid{
+    border-left: solid;
+    border-left-color: black;
+}
+
+.material_title{
+    font-size: 30px;
+    color: #0080ff;
+    margin-left: 5%;
+    margin-top: 10px;
+}
+
+.feedback_sep,
+.remark_sep{
+    width: 100%;
+    border-bottom: 5px dashed;
+}
+
+.question,
+.mark_styling{
+    font-size: 24px;
+}
+
+.from_anon,
+.from_student{
+    font-size: 32px;
+}
+
+.why{
+    color: #0080ff;
+}

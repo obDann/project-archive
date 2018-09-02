@@ -1,0 +1,7 @@
+Class name: InvalidNumberOfArgumentsException
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an incorrect number of arguments provided by the user
+Collaborators:

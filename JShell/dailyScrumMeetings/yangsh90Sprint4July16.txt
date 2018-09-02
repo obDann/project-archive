@@ -1,0 +1,15 @@
+yangsh90Sprint4July16
+
+What did I do last time?
+- wrote the base code for Mv and Cp
+- wrote some basic test cases for Mv
+- add a printFsoPath method to FileSystem, Man, Find
+
+What do I plan to do now?
+- write test cases for Cp
+- write test cases for Mv
+- complete test cases for FileSystem
+
+Am I blocked on anything?
+- how to make directory names contain only a-z, A-Z, 0-9
+- how to use output queue for outputting

@@ -1,0 +1,7 @@
+Class name: Curl
+Parent class: Command
+Subclass:
+
+Responsibilities:
+* Retrieves the file from a given URL and add it to the current working directory
+Collaborators:

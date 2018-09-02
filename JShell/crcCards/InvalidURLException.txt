@@ -1,0 +1,6 @@
+Class name: InvalidURLException
+Parent class:
+Subclasses:
+
+Responsibilities:
+* an exception to thrown when an invalid URL is provided

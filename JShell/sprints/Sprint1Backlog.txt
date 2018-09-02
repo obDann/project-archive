@@ -1,0 +1,46 @@
+//Sprint 1 Backlog
+June 15th to June 21st
+
+
+User Stories from Product Backlog that we will address in this sprint:
+h) As a user, a user must be able to open shell and knows that the he/she can
+   run shell commands
+g) As a user, a user should be notified when giving an invalid command.
+c) As a user, a user should be able to create a new file with the given name
+   and given string as the content if the given file does not exit.
+t) As a user, the user must be able to create one or more directories.
+b) As a user, a user should be able to print the given string in the shell
+a) As a user, a user should be able to print the path of the current directory
+   in the shell
+
+Specific tasks to be accomplished:
+h-1. (Console) Begin coding the structure of the commandline interpreter
+h-2. (Console) Have the shell continually prompt the user for input
+g-1. (ValidData) Parse and validate input
+c-1. (File) Write the base code for the File class (defining attributes)
+c-2. (File) Give different options for making a file
+t-1. (Directory) Write the base code for the Directory class
+t-2. (Directory) Define appropriate attributes for Directory, linking to
+                 itself, parents and contents
+t-3. (FileSystemObject) Write the base code fo FileSystemObject
+b-1. (Output) Write the base code for the Output class
+b-2. (Output) Create the ability to output to the console
+a-1. (Path) Write the base code for the Path class
+a-2. (Path) Define appropriate attributes for Path, storing the current
+
+
+These tasks are assigned as follows:
+
+
+User: Shuqi (Alice)
+Tasks: b-1, b-2, a-1, a-2
+
+User: Dann
+Tasks: c-1, c-2, t-3
+
+User: Sibo
+Tasks: h-1, h-2, g-1
+
+User: Victor
+Tasks: t-1, t-2
+

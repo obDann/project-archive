@@ -1,0 +1,102 @@
+/* Bordered form */
+form {
+    border: 3px solid #f1f1f1;
+    margin-top: 95px; /* 10px more than header height */
+}
+
+/* Full-width inputs */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-family: "PT Sans", sans-serif;
+}
+
+/* Set a style for all buttons */
+input[type=submit], button {
+    background-color: #0080ff;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-family: "PT Sans", sans-serif;
+}
+
+/* Add a hover effect for login */
+input[type=submit]:hover, button:hover {
+    opacity: 0.7;
+}
+
+/* Add padding to containers */
+.container {
+    padding: 16px;
+}
+
+/* Strip formatting from hyperlinks */
+a {
+  text-decoration: none;
+  color: White;
+  display: block;
+}
+
+/* Change font of textbox labels */
+label {
+  font-family: "PT Sans", sans-serif;
+}
+
+/*
+ We want a good part of the header as blue, taking up the entire width. Top and
+ left tells us that there are no margins to spare. We also want to keep the
+ header at the top.
+ */
+.header_block {
+    background: #0080ff;
+    position: fixed;
+    width: 100%;
+    height: 85px; /*Same size as padding in .main.*/
+    top: 0px;
+    left: 0px;
+}
+
+/*
+ For the header, we just want a big font and
+ we want white text over blue. Padding indicates
+ How far from the middle the text should be.
+*/
+.header {
+    font-size: large;
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+/*
+ It would be rational of us to style out the default
+ href tags, so text-decoration is set as none.
+*/
+.header a {
+    text-decoration: none;
+    color: white;
+    font-family: "PT Sans", sans-serif;
+}
+
+#create_container{
+    border: solid 5px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#create_title{
+    font-size: 50px;
+    width: 325px;
+    color: #0080ff;
+    margin-left: auto;
+    margin-right: auto;
+}

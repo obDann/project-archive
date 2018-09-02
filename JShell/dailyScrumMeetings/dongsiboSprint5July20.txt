@@ -1,0 +1,12 @@
+What did I do last time:
+    - integrated working boilerplate code for Output to work with Console
+
+What do I plan to do now?
+    - work on ! command
+    - everything basically
+    - unit tests
+    - cleaning up code
+
+Am I blocked on anything?
+    - nothing except myself
+

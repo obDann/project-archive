@@ -1,0 +1,11 @@
+Class name: HistoryContainer
+Parent class:
+Subclasses:
+
+Responsibilities:
+* keep a history of the commands typed by the user, whether they be valid or
+  invalid commands
+* maintains up to 1000 commands in history, updates list accordingly
+Collaborators:
+* InvalidRangeError
+

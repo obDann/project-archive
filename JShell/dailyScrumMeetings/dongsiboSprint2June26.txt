@@ -1,0 +1,17 @@
+ What did I do last time:
+    - finished implementing all needed features of HistoryContainer
+    - added getters for history container and directory stack in Console
+    - decided with team to have all commands take in a console object and array of
+      command arguments in order to use polymorphism more effectively to execute
+      commands in console
+
+What do I plan to do now?
+    - work on the rest of my tasks for sprint2 i.e. finish implementing command
+      classes for history and man command
+    - work on the calling code in Console e.g. the code for executing commands in
+      general
+
+Am I blocked on anything?
+    - possibly need all commands to have a way of constructing and getting
+      documentation from them (so that the man command has a way of accessing
+      documentation)

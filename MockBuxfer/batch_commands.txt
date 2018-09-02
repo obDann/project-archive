@@ -1,0 +1,44 @@
+add_group woo
+add_user woo hoo
+add_user woo moo
+add_user woo woo
+add_xct woo moo 5
+add_xct woo woo 500
+add_xct woo moo 200
+list_users woo
+recent_xct woo 3
+list_users woo
+remove_user woo moo
+recent_xct woo 3
+list_users woo
+under_paid woo
+add_group newGroup
+list_groups
+add_xct newGroup woo 5
+add_user newGroup newUser
+add_user newGroup newUser
+remove_user newGroup newUser
+list_users newGroup
+add_user newGroup newUser
+add_user newGroup newUser2
+add_user newGroup newUser3
+under_paid newGroup
+add_xct newGroup newUser2 5
+add_xct newGroup newUser3 1
+add_xct newGroup newUser 100
+list_users newGroup
+add_xct newGroup newUser3 3
+list_users newGroup
+add_xct newGroup newUser2 -3
+list_users newGroup
+recent_xct newGroup 100
+user_balance newGroup newUser
+user_balance newGroup newUser2
+user_balance newGroup newUser3
+remove_user newGroup newUser2
+recent_xct newGroup 100
+list_users newGroup
+add_group newGroup
+add_user newGroup newUser2
+list_users newGroup
+recent_xct newGroup 100

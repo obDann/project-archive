@@ -1,0 +1,9 @@
+Class name: Find
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* finds an existing directory or file in the filesystem
+Collaborators:
+* InvalidPathError
+

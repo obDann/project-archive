@@ -1,0 +1,12 @@
+What did I work on last time?
+    - fixed bug on pushd command where any absolute or relative path was not being pushed onto the directory stack
+    - did research on how to validate and verify URLs
+    - started base code for curl command
+
+What do I plan to work on now?
+    - complete curl command
+    - create ant file
+    - create junit test for curl command
+
+Am I blocked on anything?
+    - I am currently not blocked on anything

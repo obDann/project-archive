@@ -1,0 +1,7 @@
+Class name: Mv
+Parent Class: Cp
+Subclasses:
+Responsibilities:
+* move the items in the oldpath to newpath
+* delete the old path
+Collaborator:

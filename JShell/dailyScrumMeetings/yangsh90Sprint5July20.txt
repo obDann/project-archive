@@ -1,0 +1,12 @@
+yangsh90Sprint5July20
+
+What did I do last time?
+- write test case for Cp, Mv, FileSystem, Man
+
+What do I plan to do now?
+- go over the marking scheme and check if we are missing anything
+- update commands output with output queue
+- complete test cases for Cp, Mv, FileSystem, Man
+
+Am I blocked on anything?
+- not blocked on anything

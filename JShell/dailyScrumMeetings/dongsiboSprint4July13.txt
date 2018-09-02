@@ -1,0 +1,13 @@
+What did I do last time:
+    - fixed history command error for large numbers
+    - made Console work with reflection and hashtables
+    - discussed how to implement output redirection with Dann
+
+What do I plan to do now?
+    - work on ! command
+    - work on integrating Output with Console
+
+Am I blocked on anything?
+    - just a lot of refactoring is needed, so need to think carefully about
+      certain things
+

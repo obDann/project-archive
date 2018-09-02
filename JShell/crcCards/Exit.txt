@@ -1,0 +1,8 @@
+Class name: Exit
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* terminates the terminal and ends the current user session
+Collaborators:
+

@@ -1,0 +1,19 @@
+What did I do last time?
+-Believed completion of Cd, Cat, Echo, Ls, and Pwd
+
+
+What do I plan to do now?
+-Modularly testing the Cd, Cat, Echo, Ls and Pwd commands (only moderately
+ tested these commands)
+-Assist in "attaching" my commands to the Console class
+-ad-hoc documentation
+-helping phase (I should be readily available)
+
+Am I blocked on anything?
+-Pending discussion on the output class/interface; I will need to know how we
+ are going to implement output for cat, ls and pwd. Currently my implementation
+ has it as a hard coded System.out.println statement
+-Pending discussion on a root class; At the moment, there is just a default
+ Directory called "root", this is because FileSystemObjects cannot be named
+ "/". Will need to know implementation details since my getters inf FileSystem
+ rely on this at the moment

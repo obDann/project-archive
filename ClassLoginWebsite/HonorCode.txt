@@ -1,0 +1,13 @@
+First name: Sibo
+Last name: Dong
+Student number: 1003400269
+
+Partner's first name: Dann
+Partner's last name: Sioson
+Partner's student number: 1001346377
+
+
+Honor Code: We pledge that this program represents my own program code and that
+We have coded on my own. We received help from no one in designing and debugging
+my program. We have also read the plagiarism section in the course info sheet
+of CSC B20 and understand the consequences.

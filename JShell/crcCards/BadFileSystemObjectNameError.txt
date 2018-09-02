@@ -1,0 +1,7 @@
+Class name: BadFileSystemObjectNameError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when the FileSystemObject contains invalid characters
+Collaborators:

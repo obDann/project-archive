@@ -1,0 +1,16 @@
+yangsh90Sprint1June19
+
+What did I do last time?
+- worked on Output class
+- started base code for Path class and its basic methods
+
+What do I plan to do now?
+- rename Path to FileSystem
+- adjust FileSystem according newly added class FileSystemObject
+- create test cases for FileSystem
+- finish FileSystem
+- update crcCards
+
+Am I blocked on anything?
+- need some basic method from FileSystemObject and Directory class
+  before I can continue working on FileSystem

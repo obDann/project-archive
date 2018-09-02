@@ -1,0 +1,6 @@
+Class name: InvalidFileException
+Parent class:
+Subclasses:
+
+Responsibilities:
+* an exception to be thrown when a file is neither a txt or html file

@@ -1,0 +1,8 @@
+Class name: InvalidPathError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to retrieve a path that does
+  not exist
+Collaborators:

@@ -1,0 +1,10 @@
+Class name: File
+Parent class: FileSystemObject
+Subclasses:
+
+Responsibilities:
+* knows its contents
+* can be read
+* can be overwritten
+* can be appended to
+Collaborators:

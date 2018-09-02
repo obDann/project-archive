@@ -1,0 +1,11 @@
+Class name: FileSystemObject
+Parent class:
+Subclasses: File, Directory
+
+Responsibilities:
+* knows its name
+* can set its name
+* can get its name
+Collaborators:
+* BadFileSystemObjectNameError
+* DuplicateFileSystemObjectNameError

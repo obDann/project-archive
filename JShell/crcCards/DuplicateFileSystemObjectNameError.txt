@@ -1,0 +1,8 @@
+Class name: DuplicateFileSystemObjectNameError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to make a FileSystemObject in
+  a directory that already has the same name of the specified FileSystemObject
+Collaborators:

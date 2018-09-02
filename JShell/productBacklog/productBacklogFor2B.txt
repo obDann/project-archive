@@ -1,0 +1,52 @@
+Ba) As a user, a user must be able see all of a                3 days
+path's subdirectories given a path or
+multiple paths (in both contexts of
+relative and absolute path) [ls -R]
+
+Bb) As a user, a user can redirect the output of               2 days
+any command (except exit) to a specified file
+which will create and write to the file if it
+doesn't exist or overwrite the file's contents
+if it does exist.
+(>)
+
+Bc) As a user, a user can redirect the output of               2 days
+any command (except exit) to a specified file
+which will create and write to the file if it
+doesn't exist or append to the file's contents
+on a newline if it does exist.
+(>>)
+
+Bd) As a user, a user should be able to retrieve a file at     2 days
+a given URL and add it to the current working directory.
+(curl)
+
+Be) As a user, a user should be able to execute a              2 days
+previously executed command by providing an
+exclamation point(!) followed by the history
+number of the command that was executed.
+(!number)
+
+Bf) As a user, a user should be able to move a file or         3 days
+directory given by an path to another file or
+directory given by another path. The root directory
+can not be moved. A directory can not be moved to a
+file.
+(mv)
+
+Bj) As a user, a user should be able to copy the contents      3 days
+of a file or directory given by a path to another file
+or directory given by another path. The root directory
+can not be copied. A directory can not be copied to a
+file.
+(cp)
+
+Bk) As a user, a user should be able to print any lines in     3 days
+a file that match a regex REGEX.
+(grep)
+
+Bk) As a user, a user should be able to print all lines in
+any files in a directory (or the in the path to the directory  3 days
+including the directory) that match a regex REGEX.
+(grep)
+

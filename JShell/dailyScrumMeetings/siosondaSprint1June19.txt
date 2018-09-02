@@ -1,0 +1,12 @@
+What did I do last time?
+-Base code for the File class
+-Factory methods for the File class
+
+What do I plan to do now?
+-Re-adjustment of the file class due to a new class "File System Object"
+-Creating the base code for the File System Object
+-Creating UML diagrams for the team to view
+
+Am I blocked on anything?
+-None for now, but it may be expected that I will be for File System Object.
+Communication with the team is key to get around obstacles.

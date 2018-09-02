@@ -1,0 +1,14 @@
+Class name: Cat
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* displays the contents of the given file if it exists
+* displays the content of multiple files if it exists
+Collaborators:
+* FileSystem
+* FileSystemObject
+* File
+* UnexpectedFSOError
+* InvalidPathError
+

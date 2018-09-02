@@ -1,0 +1,14 @@
+Class name: Mkdir
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* create one or more directories in the current directory with the given names
+Collaborators:
+* FileSystem
+* Directory
+* UnexpectedFsoError
+* InvalidPathError
+* BadFileSystemObjectNameError
+* DuplicateFileSystemObjectNameError
+

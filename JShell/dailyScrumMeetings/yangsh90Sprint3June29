@@ -1,0 +1,12 @@
+yangsh90Sprint3June29
+
+What did I do last time?
+- fix the bug in Find
+- write base code for Man
+
+What do I plan to do now?
+- fix the bug for Man
+- write the output error for Man, Find
+
+Am I blocked on anything?
+- error outputing and what if we have multiple error in one command line

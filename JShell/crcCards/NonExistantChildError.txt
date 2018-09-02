@@ -1,0 +1,8 @@
+Class name: NonExistantChildError
+Parent class:
+Subclasses:
+
+Responsibilities:
+* An error to be thrown when there is an attempt to retrieve a specified child
+  in a directory, but the child does not exist
+Collaborators:

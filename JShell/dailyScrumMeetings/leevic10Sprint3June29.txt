@@ -1,0 +1,8 @@
+What did I work on last time?
+    - worked on Tree class
+
+What do I plan to work on now?
+    - I plan on testing tree, pushd, and popd commands and the directory and directory statck objects
+
+Am I blocked on anything?
+    - I am currently not blocked on anything

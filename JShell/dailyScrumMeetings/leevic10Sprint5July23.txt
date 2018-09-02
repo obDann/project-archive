@@ -1,0 +1,7 @@
+What did I work on last time?
+    - completed JUnit test for curl and grep commands
+    - included junit in the ant file
+
+What do I plan to work on now?
+
+Am I blocked on anything?

@@ -1,0 +1,14 @@
+What did I do last time:
+    - finished implementing base code for history command
+    - added method to assign proper command objects to a Command reference var in
+      Console i.e. to actually run commands
+
+What do I plan to do now?
+    - documenting and testing code
+    - continue to work on the calling code in Console e.g. the code for executing
+      commands in general
+
+Am I blocked on anything?
+    - some command's execute methods are not working exactly as wanted, affecting
+      code in Console
+

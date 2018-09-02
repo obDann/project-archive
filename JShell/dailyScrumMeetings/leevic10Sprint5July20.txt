@@ -1,0 +1,11 @@
+What did I work on last time?
+    - completed base code for grep command
+    - started on JUnit test files for grep and curl
+
+What do I plan to work on now?
+    - include JUnit test in the ant file
+    - complete JUnit test for curl command
+    - complete JUnit test for grep command
+
+Am I blocked on anything?
+    - I am currently not blocked on anything

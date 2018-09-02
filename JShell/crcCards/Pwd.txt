@@ -1,0 +1,9 @@
+Class name: Pwd
+Parent class: Command
+Subclasses:
+
+Responsibilities:
+* print the absolute path of the current working directory
+Collaborators:
+* FileSystem
+

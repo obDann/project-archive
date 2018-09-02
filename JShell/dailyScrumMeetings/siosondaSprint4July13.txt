@@ -1,0 +1,13 @@
+What did I do last time?
+-Created base code for output
+-Pending design on an output queue class
+
+
+What do I plan to do now?
+-Build and test off of the output queue class
+-Integrate the output queue class into output
+-Refactor assigned classes' code for output
+
+Am I blocked on anything?
+-Scarcity of time; have other priorities at the moment
+-Still need to agree on the output queue class with the team

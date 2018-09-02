@@ -1,0 +1,8 @@
+What did I do last time?
+- I worked on implementng polymorphsim in the directory class so that both directory and file objects can be stored in a directory.
+
+What do I plan to do now?
+- I plan on creating the directory stack class so that the pushd and popd commands can be implemented. After the directory stack class is completed I plan on creating the base code for pushd and popd.
+
+Am I blocked on anything?
+- I am currently not blocked on anything.

@@ -1,0 +1,14 @@
+What did I do last time:
+    - I was sick; just spent past few days recovering
+
+What do I plan to do now?
+    - bascially just catch up
+    - anything leftover from dongsiboSprintJune19.txt
+    - sprint2 things
+    - documentation for my class and adding the honor code thing to all files if not
+    - added already
+
+Am I blocked on anything?
+    - no, just need to take a look at all code available so far to gain an
+    - understanding of where the project is at and if we need to modify anything
+

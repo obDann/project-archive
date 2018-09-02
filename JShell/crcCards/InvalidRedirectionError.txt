@@ -1,0 +1,6 @@
+Class name: InvalidRedirection
+Parent class:
+Subclasses:
+
+Responsibilities:
+* an exception to thrown when the redirective path is invalid

@@ -1,0 +1,62 @@
+<project>
+
+<property name="build.dir" value="build"/>
+<property name="src.dir" value="src"/>
+<property name="build.test.dir" value="build/test" />
+<property name="src.test.dir" value="src/test" />
+<property name="AntTestReports.dir" value="AntTestReports"/>
+
+<target name="clean">
+  <delete dir="build">
+  </delete>
+</target>
+
+<target name="compile" depends="clean">
+  <mkdir dir="build" />
+  <javac srcdir="${src.dir}" destdir="${build.dir}">
+  <exclude name="test/**"/>
+  </javac>
+</target>
+
+<target name="jar" depends="compile">
+  <mkdir dir="jar" />
+  <jar destfile="jar/A2.jar" basedir="${build.dir}">
+    <manifest>
+      <attribute name="Main-Class" value="driver.JShell" />
+    </manifest>
+  </jar>
+</target>
+
+<target name="run" depends="jar">
+  <java jar="jar/A2.jar" fork="true" />
+</target>
+
+<path id="classpath.test">
+    <pathelement location="junit-4.12.jar"/>
+    <pathelement location="hamcrest-core-1.3.jar"/>
+    <pathelement location="${build.dir}"/>
+</path>
+
+<target name="junit-compile" depends="compile">
+  <mkdir dir="${build.test.dir}" />
+  <javac srcdir="${src.test.dir}" destdir="${build.test.dir}">
+    <classpath refid="classpath.test"/>
+  </javac>
+</target>
+
+<target name="junit" depends="junit-compile">
+  <mkdir dir="${AntTestReports.dir}"/>
+  <junit printsummary="yes" haltonfailure="fail">
+    <formatter type="plain"/>
+    <classpath>
+      <path refid="classpath.test"/>
+      <pathelement location="${build.test.dir}"/>
+    </classpath>
+    <batchtest todir="${AntTestReports.dir}">
+      <fileset dir="${build.test.dir}">
+      </fileset>
+    </batchtest>
+  </junit>
+</target>
+
+</project>

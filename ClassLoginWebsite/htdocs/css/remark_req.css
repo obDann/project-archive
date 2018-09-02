@@ -1,0 +1,15 @@
+label {
+  padding-left: 1em;
+}
+
+input {
+  margin-left: 1em;
+  margin-bottom: 1em;
+}
+
+textarea {
+  width: calc(100% - 2em);
+  height: 20em;
+  margin-left: 1em;
+  margin-right: 1em;
+}

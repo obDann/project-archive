@@ -1,0 +1,13 @@
+What did I do last time?
+-Reinforced code for the output class
+-Created base code for output queue class and its unit test
+
+
+What do I plan to do now?
+-Refactor delegated classes from 2A so that it works with the output class
+-Complete the functionality of "ls -R"
+
+Am I blocked on anything?
+-Needed to discuss how output queue is worked with the commands (which is
+ discussed with group members)
+-Will talk to group members for any additional help

@@ -1,0 +1,6 @@
+Class name: ConnectionErrorException
+Parent class:
+Subclasses:
+
+Responsibilities:
+* an exception to be thrown when a given URL can not be connected to

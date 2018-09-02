@@ -1,0 +1,12 @@
+Class name: Output
+Parent class:
+Subclasses:
+
+Responsibilities:
+* Determines valid re-direction of output
+* Provides output to the shell/file specified
+Collaborators:
+* File
+* FileSystem
+* InvalidRedirectionError
+* OutputQueue

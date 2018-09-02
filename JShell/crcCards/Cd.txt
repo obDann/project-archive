@@ -1,0 +1,11 @@
+Class name: Cd
+Parent class: Command
+
+Subclasses:
+Responsibilities:
+* navigate to a given (absolute or relative) directory
+Collaborators:
+* FileSystem
+* Directory
+* InvalidPathError
+

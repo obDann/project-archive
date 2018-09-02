@@ -1,0 +1,14 @@
+yangsh90Sprint2June22
+
+What did I do last time?
+- write the methods for FileSystem class
+- adjust FileSystem class based on FileSystemObject and Directory class
+
+What do I plan to do now?
+- base code for Command class
+- base code  for pathDirCommand class
+- base code for Man class
+
+Am I blocked on anything?
+- do not know how to start the Man class and how to read the
+  documentation of a method in java

@@ -1,0 +1,13 @@
+Class name: Popd
+Parent class: Command
+Subclass:
+
+Responsibilities:
+* pops off the topmost directory path off of the directory stack and sets
+  the current working directory to the popped off directory (only if the
+  directory stack is nonempty)
+Collaborators:
+* DirectoryStack
+* Cd
+* PopFromEmptyStackError
+* BadFileSystemObjectNameError

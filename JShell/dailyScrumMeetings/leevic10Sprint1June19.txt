@@ -1,0 +1,8 @@
+What did I do last time?
+- I worked on the base code for the directory class.
+
+What do I plan to do now?
+- I plan on implementing polymorphism in the directory class so that directories and files can be stored in a directory.
+
+Am I blocked on anything?
+- I was blocked on how to store both directory and file objects in a directory.

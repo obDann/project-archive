@@ -1,0 +1,71 @@
+//Sprint 3 Backloag
+June 29th to July 2nd
+
+User Stories from Product Backlog that we will address in this sprint:
+
+a) As a user, a user should be able print the path of the current directory in the shell
+
+b) As a user, a user should be able to print the given string in the shell
+
+f) As a user, a user should be able to open and display the contents of multiple files listed one after another in the shell
+
+j) As a user, a user must be able to change his/her working directory to an absolute or relative path
+
+q) As a user, the user should be able to pop off the most recent directory path
+   off of the LIFO directory stack and also have their working directory set to
+   the popped off directory path (an attempt to pop an empty directory stack will
+   result in a specialized error message being displayed).
+   
+s) As a user, the user should be able to access documentation for the current
+JShell terminal's commands through the JShell terminal.
+
+t) As a user, the user must be able to create one or more directories.
+
+w) As a user, the user must be able to print the contents of the current directory.
+
+aa) As a user, the user must be able to find any existing directory or file in the file
+system.
+
+ab) As a user, the user must be able to get a display of the entire filesystem as a tree.
+
+g) As a user, a user should be notified when giving an invalid command.
+
+l)
+As a user, a user must be able to see all previous commands he/she put into the shell
+
+
+
+Specific tasks to be accomplished:
+ab - 1 (Tree) complete base code for the Tree command
+ab - 2 (Tree) complete unit testing for the Tree command
+t  - 3 (Directory) complete unit testing for Directory object
+q  - 1 (Pushd) complete unit testing for the Pushd command
+q  - 2 (Popd) complete unit testing for the Popd command
+q  - 3 (Directory Stack) complete unit testing for the Directory Stack object 
+a  - 1 (Pwd) complete unit testing for the pwd command
+b  - 1 (Echo) complete unit testing for the echo command
+f  - 1 (Cat) complete unit testing for the Cat command
+j  - 1 (Cd) complete unit testing for the Cs command
+t  - 1 (Mkdir) make the base code for the Mkdir command
+t  - 2 (Mkdir) complete unit testing for the Mkdir command
+w  - 1 (Ls) complete unit testing for the Ls command
+s  - 1 (Man) complete unit testing for Man Command
+aa - 1 (Find) complete unit testing for Find Command
+g  - 1 (ValidData) documentation and unit testing for ValidData
+l  - 1 (HistoryContainer) documentation and unit testing for HistoryContainer
+1  - 2 (History) documentation and unit testing fro History Command
+
+
+These tasks are assigned as follows:
+
+User: Dann
+Tasks: a-1, b-1, f-1, j-1, t-1, t-2, w-1
+
+User: Victor
+Tasks: ab-1, ab-2, t-3, q-1, q-2, q-3
+
+User: Shuqi (Alice)
+Tasks: s-1, aa-1
+
+UserL Sibo
+Tasks: g-1, l-1, l-3
