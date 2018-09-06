@@ -4,7 +4,7 @@ A replication of a unix-style shell. This project is completed with collaborativ
 
 ### Highlights
 * Design of a large-scaled project; frequent meetings for design prior to implementation
-* Simulation of a software-engineering environment
+* Agile methodology:
   * Product backlog: A composition of user stories given the client's initial and changed requirements
   * CRC Cards: Breaking down the requirements from the user
     * Generating class ideas
